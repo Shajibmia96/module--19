@@ -4,6 +4,7 @@
 
 var names='My name is Shajib sarkar';
 var name= names.includes("my")
-
+var sub =names.substring(0, 24)
+console.log(sub)
 console.log(name)
 console.log(names)
